@@ -1,0 +1,16 @@
+name: ChatFilterSoldin
+main: me.soldin.chatfilter.ChatFilterSoldin
+version: 1.1
+api-version: 1.16
+commands:
+  chatfilter:
+    description: Команды фильтра чата
+    usage: /chatfilter reload|info
+    aliases: [cf]
+permissions:
+  chatfilter.bypass:
+    description: Игнорирование фильтра
+    default: op
+  chatfilter.reload:
+    description: Перезагрузка конфига
+    default: op
